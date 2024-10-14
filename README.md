@@ -13,7 +13,7 @@ How it is set up.
 - Go to Google Cloud Platform, create a new project, attach your credit card (don’t worry, you’ll spend a very low amount).
 - Go to Cloud Run Functions (fyi soon this will be migrated to the Cloud Run UI).
 - Create a Cloud Run Function (heads up - my script and function setup is a bit old, although still functionable, so you may want to trial and error a bit in order to adjust it to a more updated/fresh setup). My configuration is using a 1st gen function, Python 3.10, Memory allocated 256 MB, Timeout 300 seconds, Minimum instances 0, Maximum instances 32.
-- Obviously replace all relevant placeholders (your API Secret, your Spreadsheet ID, your ad account ID in the API call),
+- Obviously replace all relevant placeholders (your API Secret, your Spreadsheet ID, your advertiser ID in the API call),
 - Deploy your function and voila!
 
 Btw:

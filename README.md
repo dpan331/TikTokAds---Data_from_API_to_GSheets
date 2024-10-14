@@ -3,9 +3,9 @@ A python script (that can be hosted in Google Cloud Run Functions) which gets da
 The data fetched correspond to an ecommerce business thus certain dimensions and metrics have been selected.
 
 How it works.
-> It makes an API Call to TikTok Ads retrieving specific data for the last 28 days (to account for the longest aopplicable attribution window in case you have selected such one).
-> It pushes the data to a Google Sheet merging them with the older data with the key column being the date.
-> It runs automatically on a daily basis.
+- It makes an API Call to TikTok Ads retrieving specific data for the last 28 days (to account for the longest aopplicable attribution window in case you have selected such one).
+- It pushes the data to a Google Sheet merging them with the older data with the key column being the date.
+- It runs automatically on a daily basis.
 
 How it is set up.
 >>> Grab the script from my github repository.
